@@ -17,11 +17,6 @@ android {
     namespace = "me.rerere.rikkahub"
     compileSdk = 37
 
-    lint {
-        checkReleaseBuilds = false
-        abortOnError = false
-    }
-
     defaultConfig {
         applicationId = "me.rerere.rikkahub"
         minSdk = 26
